@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        
+    <h1>Soy socio</h1>
+    </div>
+  <div class="movil">
+    <form action="{{url}}/login" method="POST">
+      <fieldset class="sinBorde"><legend>Usuario:</legend><input type='text' name="user"></fieldset>
+      <fieldset class="sinBorde"><legend>Contraseña:</legend><input type="password" name='pass'></fieldset>
+
+<input type="submit" value="Enviar">
+
+</form>
+  </div>
+ 
+    <style>
+        :root {
+            --xurl:'{{url}}';
+        }
+    </style>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+:root {
+    --xurl: 'miUrl';
+}
+
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+
+fieldset {
+  border:none;
+}
+
+legend {
+  font-size: 0.7em;
+}
+
+input[type="text"], input[type="password"] {
+  font-size: 1.3em;
+  border-radius: 10px;
+  background-color: #ddf;
+  border-radius: 10px;
+  width: 90%;
+  margin: 5px;
+}
+
+input[type="submit"] {
+  font-size: 1.3em;
+  color: white;
+  border-radius: 10px;
+  background-color: #88f;
+  border-radius: 10px;
+  width: 90%;
+  margin: 5px;
+}
+
+.movil {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  
+ 
+  align-content:center;
+
+}
+
+
+h1 {
+    color: red;background-color: yellow; opacity: 0.7;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    opacity: 0.7;
+}
+
+div {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('soysocio.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sinBorde {
+    border: none;
+  }
+
+  
+fieldset {
+    border:none;
+  }
+  
+  legend {
+    font-size: 0.7em;
+  }
+  
+  input[type="text"], input[type="password"] {
+    font-size: 1.3em;
+    border-radius: 10px;
+    background-color: #ddf;
+    border-radius: 10px;
+    width: 90%;
+    margin: 5px;
+  }
+  
+  input[type="submit"] {
+    font-size: 1.3em;
+    color: white;
+    border-radius: 10px;
+    background-color: #88f;
+    border-radius: 10px;
+    width: 90%;
+    margin: 5px;
+  }
+  
+  .movil {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    
+   
+    align-content:center;
+  
+  }
+  
+  
+    
